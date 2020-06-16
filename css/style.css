@@ -3,8 +3,8 @@
     padding: 0;
 }
 body{
-    background-image: url(../img/straberry4.jpg);
-    background-color:rgba(255,255,255,0.3);
+    
+    background-color:#FFFAF0;
     background-blend-mode:lighten;
     background-size: cover;
     background-attachment: fixed;
@@ -370,18 +370,22 @@ footer{
       /*中身*/
       .head_menu li{
         display: initial;
+        display: list-item;
+        background-color: rgb(7, 6, 64);
+        height: 2rem;
+        text-align: center;
+        padding: 0.5rem;
+        margin: 0.2rem;
     }
     .head_menu li a{
-       width: 100%;
-       background-color: lawngreen;
-       
+       all: initial;
+       color: #fff;
+       padding: 0px;
+       font-family: serif;
     }
     header .wrap .head_menu{
-        position: initial;
-        
+        all: initial;
     }
-    
-    
       #nav-content {
         overflow: auto;
         position: fixed;
@@ -391,10 +395,11 @@ footer{
         width: 90%;/*右側に隙間を作る（閉じるカバーを表示）*/
         max-width: 330px;/*最大幅（調整してください）*/
         height: 100%;
-        background: #fff;/*背景色*/
+        background-color: #DDDDDD;/*背景色*/
         transition: .3s ease-in-out;/*滑らかに表示*/
         -webkit-transform: translateX(-105%);
         transform: translateX(-105%);/*左に隠しておく*/
+        padding-top: 3rem;
       }
       
       /*チェックが入ったらもろもろ表示*/
@@ -411,11 +416,148 @@ footer{
       
         /*ハンバーガーメニューここまで*/
         header h1{
-            background-color: orange;
             width: 40%;
         }
         header .wrap{
             height: 2.6rem;
         }
 
+}
+@media screen and (max-width: 768px){
+    
+    .menu .straberry_menu{
+        width: 90%;
+        padding: 2rem 1.5rem; 
+        
+    }
+    .menu .straberry_menu .item_name{
+        height: 2.5rem;
+        width: 25rem;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    
+    .menu .straberry_menu .item_information{
+        
+        font-size: 1rem;
+        width: 85%;
+        padding: 0.3rem;
+    }
+    .menu .straberry_menu1{
+        width: 85%;
+        padding: 1.5rem 1rem;
+    }
+    @media screen and (max-width: 425px){
+        header h1{
+            font-size: 1.5rem;
+            width: 20rem;
+        }
+        header .buffet_title2{
+            font-size: 0.7rem;
+        }
+        header .buffet_title3{
+            font-size: 1.5rem;
+        }
+        header .buffet_title4{
+            font-size: 1.5rem;
+        }
+        header .buffet_title5{
+            font-size: 1rem;
+        }
+        header .buffet_title6{
+            font-size: 0.7rem;
+        }
+        header h1{
+            font-size: 1.5rem;
+            width: 17rem;
+        }
+        main .about_fair p{
+            font-size: 0.8rem;
+        }
+        .menu .straberry_menu .item_name{
+            height: 1.7rem;
+            width: 15rem;
+            font-size: 1.1rem;
+        }
+        .menu .straberry_menu .item_information{
+            font-size: 0.5rem;
+            width: 75%;
+            padding: 0.3rem;
+        }
+        .menu_image .straberry_menu1 .menu_title{
+            font-size: 1rem;
+        }
+        .menu_image .straberry_menu1 .menu_title2{
+            font-size: 0.7rem;
+        }
+        .menu_image .straberry_menu1 .menu{
+            font-size: 0.7rem;
+        }
+        .menu_image .straberry_menu1 .menu_title3{
+            font-size: 0.7rem;
+        }
+        .menu_image .straberry_menu1 .menu2{
+            font-size: 0.7rem;
+        }
+        .menu_image .straberry_menu1 .menu3{
+            font-size: 0.5rem;
+        }
+        .information .information2{
+            font-size: 1rem;
+        }
+        .information .border{
+            font-size: 1rem;
+        }
+        .information .day_price{
+            font-size: 1rem;
+        }
+        .information .day_price_small{
+            font-size: 1rem;
+        }
+        footer p{
+            font-size: 0.9rem;
+        }
+    }
+    @media screen and (max-width: 375px){
+        .menu .straberry_menu .item_name{
+            height: 1.2rem;
+            width: 13rem;
+            font-size: 1rem;
+        }
+        .menu .straberry_menu .item_information{
+            font-size: 0.3rem;
+            width: 70%;
+            padding: 0.3rem;
+        }
+    }
+    @media screen and (max-width: 320px){
+        header h1{
+            font-size: 1.2rem;
+            width: 13rem;
+        }
+        .menu .menu_image{
+            width: 90%;
+        }
+        main button{
+            padding: 0.8rem 4rem;
+            font-size: 0.8rem;
+            margin: 1rem;
+        }
+        main .about_fair p{
+            width: 90%;
+        }
+        .menu .straberry_menu{
+            width: 90%;
+        }
+        .menu .straberry_menu .item_name{
+            width: 11rem;
+            font-size: 0.9rem;
+        }
+        .menu .straberry_menu .item_information{
+            font-size: 0.1rem;
+            width: 67%;
+            padding: 0.2;
+        }
+        
+    }
 }
