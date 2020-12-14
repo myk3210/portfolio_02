@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
 	<meta charset="UTF-8">
     <!-- ビューポートの設定 -->
@@ -10,82 +9,105 @@
 	<title>ストロベリースイーツブッフェ｜ザ・グランドホテル東京</title>
 	<link rel="stylesheet" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Barriecito&display=swap" rel="stylesheet">	
+	<link rel="stylesheet" type="text/css" href="./slick/slick-theme.css"/>
+	<link rel="stylesheet" href="./slick/slick.css"/>
 	<script src="js/jquery-3.4.1.min.js"></script>
 	<script type="text/javascript" src="js/style.js"></script>
-	
+	<script src="./slick/slick.min.js"></script>
 </head>
 <body>
 	<header>
-		<div class="wrap">
-			<h1>the grand hotel tokyo</h1>
-			
-				
-				<input id="nav-input" type="checkbox" class="nav-unshown">
-        		<label id="nav-open" for="nav-input"><span></span></label>
-        		<label class="nav-unshown" id="nav-close" for="nav-input"></label>
-				
-				<nav id="nav-content">
-					<ul class="head_menu nav_menu_ul">
-						<li class="nav_menu_li"><a href="">アクセス</a></li>
-						<li class="nav_menu_li"><a href="">よくあるご質問</a></li>
-						<li class="nav_menu_li"><a href="">language</a></li>
-						<li class="nav_menu_li"><a href="">ホテル会員のご案内</a></li>
-						<li class="nav_menu_li"><a href="">宿泊・レストラン予約</a></li>
-					</ul>
-				</nav>
-			
-			
+		<div class="pc">
+			<div class="wrap">
+				<h1>the grand hotel tokyo</h1>
+					<nav id="nav-content">
+						<ul class="head_menu nav_menu_ul">
+							<li class="nav_menu_li"><a href="">アクセス</a></li>
+							<li class="nav_menu_li"><a href="">よくあるご質問</a></li>
+							<li class="nav_menu_li"><a href="">language</a></li>
+							<li class="nav_menu_li"><a href="">ホテル会員のご案内</a></li>
+							<li class="nav_menu_li"><a href="">宿泊・レストラン予約</a></li>
+						</ul>
+					</nav>
+			</div>
+			<div class="slide_show">
+					<div class="buffet"><img src="img/straberry1.jpg" alt="ストロベリースイーツブッフェ" title="ブッフェ"></div>
+					<div class="buffet"><img src="img/straberry2.jpg" alt="ストロベリースイーツブッフェ" title="ブッフェ"></div>
+					<div class="buffet"><img src="img/straberry3.jpg" alt="ストロベリースイーツブッフェ" title="ブッフェ"></div>
+					<div class="buffet"><img src="img/straberry4.jpg" alt="ストロベリースイーツブッフェ" title="ブッフェ"></div>	
+			</div>
+			<section class="buffet_title">
+				<h2 class="buffet_title2">ストロベリースイーツブッフェ</h2>
+				<h2 class="buffet_title3">Strawberry</h2>
+				<h2 class="buffet_title4">sweets buffet</h2>
+				<h2 class="buffet_title5">〜Berry Lovely Pink〜</h2>
+				<h2 class="buffet_title6">-- 2020.1.7Tue Start --</h2>
+			</section>
 		</div>
-		
-		<div class="buffet"><img src="img/straberry1c.jpg" alt="ストロベリースイーツブッフェ" title="ブッフェ"></div>
-		<div class="buffet_title">
-			<p class="buffet_title2">ストロベリースイーツブッフェ</p>
-			<p class="buffet_title3">Strawberry</p>
-			<p class="buffet_title4">sweets buffet</p>
-			<p class="buffet_title5">〜Berry Lovely Pink〜</p>
-			<p class="buffet_title6">-- 2020.1.7Tue Start --</p>
-		</div>
+	<div class="sp">
+		<input id="nav-input" type="checkbox" class="nav-unshown">
+        <label id="nav-open" for="nav-input"><span></span></label>
+		<label class="nav-unshown" id="nav-close" for="nav-input"></label>
+		<nav id="nav-content">
+			<ul class="head_menu nav_menu_ul">
+				<li class="nav_menu_li"><a href="">アクセス</a></li>
+				<li class="nav_menu_li"><a href="">よくあるご質問</a></li>
+				<li class="nav_menu_li"><a href="">language</a></li>
+				<li class="nav_menu_li"><a href="">ホテル会員のご案内</a></li>
+				<li class="nav_menu_li"><a href="">宿泊・レストラン予約</a></li>
+			</ul>
+		</nav>
+		<div class="buffet"><img src="img/straberry1.jpg" alt="ストロベリースイーツブッフェ" title="ブッフェ"></div>
+		<section class="buffet_title">
+			<h2 class="buffet_title2">ストロベリースイーツブッフェ</h2>
+			<h2 class="buffet_title3">Strawberry</h2>
+			<h2 class="buffet_title4">sweets buffet</h2>
+			<h2 class="buffet_title5">〜Berry Lovely Pink〜</h2>
+			<h2 class="buffet_title6">-- 2020.1.7Tue Start --</h2>
+		</section>
+	</div>
 	</header>
 	<main>
-		<div class="about_fair">
-			<p>2階/オールデイダイニング<樹林>では、<br>
-				2020年最初のスイーツブッフェテーマを「いちご×チョコレート」とした<br>
-				「ストロベリースイーツブッフェ ～Berry Lovely Pink～」を開催いたします。<br>
-				Lovely Pinkの世界に、鮮やかないちごがふんだんに使われたスイーツブッフェで<br>
+		<article class="about_fair">
+			<p>2階/オールデイダイニング<樹林>では<br>
+				2020年最初のスイーツブッフェテーマを<br>
+				「いちご×チョコレート」とした<br>
+				「ストロベリースイーツブッフェ <br>～Berry Lovely Pink～」<br>を開催いたします。<br>
+				Lovely Pinkの世界に<br>鮮やかないちごが<br>ふんだんに使われたスイーツブッフェで<br>
 				ときめく世界をお楽しみください。</p>
-			<p>若手ホテルパティシエが主体となり、こだわり抜いた可愛らしいスイーツが登場します。<br>
-				また、世界トップパティシエに愛されるヴァローナ社のチョコレートを使ったスイーツを含む<br>
-				約30種類を取り揃えております。</p>
-			<p>種類豊富なサラダコーナーや、ライブキッチンもチェックしてみてください。<br>
-				イチゴ×チョコレートを、心ときめくLovely Pinkの世界観とともにお楽しみください。</p>
-			<button type="button"><a href="">ご予約はこちら</a></button>
-		</div>
-		<div class="menu">
-			<div class="menu_image">
-				<figure class="straberry_menu">
+			<p>若手ホテルパティシエが主体となり<br>こだわり抜いた可愛らしいスイーツが登場します。<br>
+				また、世界トップパティシエに愛される<br>ヴァローナ社のチョコレートを使った<br>
+				スイーツを含む約30種類を取り揃えております。</p>
+			<p>種類豊富なサラダコーナーや<br>ライブキッチンもチェックしてみてください。<br>
+				イチゴ×チョコレートを<br>心ときめくLovely Pinkの世界観とともに<br>お楽しみください。</p>
+			<div class="center"><button type="button"><a href="">ご予約はこちら</a></button></div>
+		</article>
+		<section class="menu">
+			<article class="menu_image">
+				<figure class="straberry_menu">	
 					<img src="img/straberry5.jpg" alt="いちごのガトーショコラ" title="いちごのガトーショコラ">
-					<p class="item_name">いちごのガトーショコラ</p>
+					<figcaption class="item_name">いちごのガトーショコラ</figcaption>
 					<p class="item_information">鮮やかなベリーで華やかさをプラスした、ちょっと大人なガトーショコラ。甘酸っぱいベリーと甘いチョコレートのコンビネーションで、生クリームが苦手な方にもおすすめです。</p>
 				</figure>
 				<figure class="straberry_menu">
 					<img src="img/straberry6.jpg" alt="いちごタルト" title="いちごタルト">
-					<p class="item_name">いちごタルト</p>
+					<figcaption class="item_name">いちごタルト</figcaption>
 					<p class="item_information">いちごの甘酸っぱさ・甘みのバランスがちょうど良い人気のタルトです！サクサクのタルト生地の上に敷き詰めた、ピスタチオとナッツの食感もお楽しみいただけます。</p>
 				</figure>
 				<figure class="straberry_menu">
 					<img src="img/straberry7.jpg" alt="いちごのムース" title="いちごのムース">
-					<p class="item_name">いちごのムース</p>
+					<figcaption class="item_name">いちごのムース</figcaption>
 					<p class="item_information">いちごの断面が見えてとても可愛いヨーグルトムース。甘酸っぱいいちごと、酸味のある爽やかなヨーグルトのムースに、甘いイチゴのソースをかけて見た目も華やかで、お楽しみいただけます。</p>
 				</figure>
 				<figure class="straberry_menu">
 					<img src="img/straberry8.jpg" alt="いちごたっぷりのフレジェ" title="いちごたっぷりのフレジェ">
-					<p class="item_name">いちごたっぷりのフレジェ</p>
+					<figcaption class="item_name">いちごたっぷりのフレジェ</figcaption>
 					<p class="item_information">ダックワーズの生地に濃厚なバタークリームとカスタードクリームとイタリアンメレンゲをあわせたムースリーヌクリームをサンドし、いちごをたっぷり並べたフランス版ショートケーキです。</p>
 				</figure>
 				<figure class="straberry_menu">
 					<img src="img/straberry9.jpg" alt="いちごプリン" title="いちごプリン">
-					<p class="item_name">いちごプリン</p>
-					<p class="item_information">ミルキーでやさしい甘さの、ふるふるいちごミルクプリン。, 甘酸っぱい濃厚いちごソースをトッピングすることで、甘ったるくならず、爽やかなおいしさを堪能できます。</p>
+					<figcaption class="item_name">いちごプリン</figcaption>
+					<p class="item_information">ミルキーでやさしい甘さの、ふるふるいちごミルクプリン。甘酸っぱい濃厚いちごソースをトッピングすることで、甘ったるくならず、爽やかなおいしさを堪能できます。</p>
 				</figure>
 				<figure class="straberry_menu1">
 					<p class="menu_title">MENU</p>
@@ -115,32 +137,30 @@
 					</ul>
 					<p class="menu3">※メニューは変更になる場合がございます。</p>
 				</figure>
-			</div>
-		</div>
-
-		<div class="information">
-			<div class="wrap">
+			</article>
+		</section>
+		<section class="information">
+			<article class="wrap">
 				<p class="information2">2階/オールデイダイニング<樹林></p>
 				<p class="border day_price">日時</p>
-				<p class="day_price">2020年1月7日（火）～4月30日（木</p>
+				<p class="day_price">2020年1月7日（火）～4月30日（木)</p>
 				<p class="day_price">15:00～17:30（L.O.17:00）</p>
 				<p class="border day_price">料金</p>
-				<p class="day_price">大人　4,300円、小人　2,600円（4歳～小学生まで）</p>
+				<p class="day_price">大人　4,300円、小人　2,600円</p>
+				<p class="day_price">（4歳～小学生まで）</p>
 				<p class="day_price_small">（サービス料・料金込）</p>
 				<p class="day_price_small">ドリンク付（紅茶各数種、コーヒー、ソフトドリンク各種）<br>
 				サラダ、パスタ、サンドウィッチなど軽食もご用意しております。</p>
-			</div>
+			</article>
 			<div class="snack"><img src="img/snack.jpg" alt="軽食" title="軽食"></div>
 			<button type="button"><a href="">ご予約はこちら</a></button>
 			<p class="day_price_small">16:00以降のご予約はお電話にて賜ります。</p>
 			<p class="day_price_small">お問い合わせ・ご予約</p>
-			<p class="information2">TEL.99-9999-9999（代表）【レストラン予約】</p>
-		</div>
+			<address>TEL.99-9999-9999（代表）【レストラン予約】</address>
+		</section>
 	</main>
 	<footer>
 		<p>※写真はイメージです。季節・天候により料理内容・器等が変更になる場合がございます。</p>
 	</footer>
-
 </body>
-
 </html>

@@ -11,4 +11,16 @@ $(function(){
         window.scrollTo( 0 , scrollpos );
         $('#nav-open').removeClass('open');
     });
+
+    $('.slider').slick({
+        autoplay:true,
+        autoplaySpeed:5000,
+        dots:true,
+    });
+    $(function(){
+        $('.slide_show').slick({
+            // アクセシビリティ。左右ボタンで画像の切り替えをできるかどうか
+            autoplay: true,
+        });
+      });
 });
