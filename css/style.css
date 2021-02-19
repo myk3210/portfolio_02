@@ -236,7 +236,7 @@ main button a{
 }
 .menu_image .straberry_menu1 .menu_title{
     color: #ff9999;
-    font-size: 3rem;
+    font-size: 2.8rem;
     letter-spacing: 0.8rem;
     text-align: center;
     font-family: serif;
@@ -251,7 +251,7 @@ main button a{
 }
 .menu_image .straberry_menu1 .menu{
     color: #fff;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-family: Yu Mincho;
     text-align: center;
     margin-bottom: 0.5rem;
@@ -274,7 +274,7 @@ main button a{
     font-family: serif;
 }
 .information{
-    background-color: rgba(255,255,255,0.6);;
+    background-color: rgba(255,255,255,0.6);
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -283,7 +283,6 @@ main button a{
 .information p{
     font-size: 3rem;
     font-family: serif;
-    line-height: 2rem;
 }
 .information .information2{
     font-size: 3rem;
@@ -314,6 +313,7 @@ address{
 .information .snack img{
     width: 20rem;
 }
+
 footer{
     text-align: center;
     background-color: #800000;
@@ -323,6 +323,13 @@ footer{
 .nav-unshown {
     display:none;
   }
+.information .map_original{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50rem;
+    height: 40rem;
+    background-color: #CB0065;
+ }
 @media screen and (max-width: 1024px){
     .menu .straberry_menu .item_name{
         top: 3rem;
@@ -330,7 +337,7 @@ footer{
         padding: 0.5rem;
     }
     .menu .straberry_menu .item_information{
-        bottom: 3.3rem;
+        bottom: 3.8rem;
         left: 2.6rem;
         font-size: 0.8rem;
     }
@@ -344,6 +351,52 @@ footer{
     header .buffet_title2{
         font-size: 4rem;
     }
+
+
+
+    .menu_image .straberry_menu1 .menu_title{
+        color: #ff9999;
+        font-size: 2.5rem;
+        letter-spacing: 0.8rem;
+        text-align: center;
+        font-family: serif;
+    }
+    .menu_image .straberry_menu1 .menu_title2{
+        color: #ff9999;
+        font-size: 1rem;
+        font-family: serif;
+        letter-spacing: 0.3rem;
+        text-align: center;
+        margin-bottom: 0.3rem;
+    }
+    .menu_image .straberry_menu1 .menu{
+        color: #fff;
+        font-size: 1rem;
+        font-family: Yu Mincho;
+        text-align: center;
+        margin-bottom: 0.3rem;
+        font-family: serif;
+    }
+    
+    .menu_image .straberry_menu1 .menu2{
+        font-size: 1rem;
+    }
+    .menu_image .straberry_menu1 .menu_title3{
+        font-size: 1rem;
+    }
+    .menu_image .straberry_menu1 .menu3{
+        font-size: 1rem;
+    }
+
+    
+    .information .day_price_small{
+        font-size: 1.5rem;
+    }
+
+
+
+
+
 }
 @media screen and (max-width: 768px){
     .pc{
@@ -355,7 +408,7 @@ footer{
     }
     header .buffet_title{
         position: absolute;
-            bottom: 7rem;
+            bottom: 1rem;
     }
     header h1{
         font-size: 2rem;
@@ -497,7 +550,7 @@ footer{
       .head_menu li{
         display: initial;
         display: list-item;
-        background-color: rgb(7, 6, 64);
+        background-color: #ffffff;
         height: 2rem;
         text-align: center;
         padding: 0.5rem;
@@ -505,9 +558,12 @@ footer{
     }
     .head_menu li a{
        all: initial;
-       color: #fff;
+       color: #000000;
        padding: 0px;
        font-family: serif;
+    }
+    .head_menu li:hover{
+        background-color:#ffe4e1;
     }
     header .wrap .head_menu{
         all: initial;
@@ -521,7 +577,7 @@ footer{
         width: 90%;/*右側に隙間を作る（閉じるカバーを表示）*/
         max-width: 330px;/*最大幅（調整してください）*/
         height: 100%;
-        background-color: #DDDDDD;/*背景色*/
+        background-color: #fff;/*背景色*/
         transition: .3s ease-in-out;/*滑らかに表示*/
         -webkit-transform: translateX(-105%);
         transform: translateX(-105%);/*左に隠しておく*/
@@ -544,10 +600,7 @@ footer{
             font-size: 1.5rem;
             width: 70%;
         }
-        header .buffet_title{
-            position: absolute;
-            bottom: 4rem;
-        }
+        
         header .buffet_title2{
             font-size: 0.7rem;
         }
@@ -568,6 +621,7 @@ footer{
         }
         main button{
             font-size: 1rem;
+            padding: 1rem 5rem;
         }
         .menu .straberry_menu .item_name{
             height: 1.7rem;
@@ -597,12 +651,21 @@ footer{
         .menu_image .straberry_menu1 .menu3{
             font-size: 0.5rem;
         }
-        
+        main .about_fair p{
+            line-height: 3rem;
+            padding-bottom: 0rem;
+        }
+        .information p{
+            font-size: 1.4rem;
+        }
+        .information .border{
+            padding: 0rem;
+        }
         .information .information2{
-            font-size: 2rem;
+            font-size: 1.7rem;
         }
         .information .day_price{
-            font-size: 1.7rem;
+            font-size: 1.4rem;
         }
         .information .day_price_small{
             font-size: 1rem;
@@ -612,6 +675,10 @@ footer{
         }
         footer p{
             font-size: 0.9rem;
+        }
+        .information .map_original{
+            width: 25rem;
+            height: 20rem;
         }
     }
     @media screen and (max-width: 375px){
