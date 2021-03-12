@@ -10,7 +10,7 @@ body{
     background-blend-mode:lighten;
     background-size: cover;
     background-attachment: fixed;
-    font-size: 1.6rem;
+    
 }
 /* ヘッダー */
 header{
@@ -159,11 +159,12 @@ main .about_fair p{
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    font-size: 2.3rem;
+    font-size: 1.6rem;
     font-family: serif;
-    line-height: 6rem;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    line-height: 4rem;
+    letter-spacing: 0.2rem;
+    padding-top: 6rem;
+    padding-bottom: 0rem;
 }
 main .about_fair .center{
     text-align: center;
@@ -175,8 +176,10 @@ main button{
     border: solid 1px #ccc;
     background-color: #CB0065;
     font-size: 2rem;
-    margin: 1rem;
+    margin: 7rem;
 }
+
+
 main button a{
     color: #fff;
 }
@@ -187,13 +190,13 @@ main button a{
 .menu .menu_image{
     display: flex;
     flex-wrap: wrap;
-    width: 80%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
 }
 .menu .straberry_menu{
-    width: 43%;
-    padding: 2rem 1.5rem; 
+    width: 46%;
+    padding: 1rem 1.5rem; 
     position: relative;
 }
 .menu .straberry_menu img{
@@ -202,32 +205,36 @@ main button a{
 .menu .straberry_menu .item_name{
     position: absolute;
     font-family: serif;
-    background-color:rgba(255,255,255,0.8);
+    font-weight: bold;
     top: 2em;
-    color: #ff3366;
-    font-size: 1.6rem;
+    color: #000000;
+    font-size: 2.2rem;
     left: 50%;
     transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
-    padding: 1.5rem 3rem;
+    padding: 1.5rem 2rem;
     text-align: center;
+    background-color:rgba(255,255,255,0.8);
 }
 
 .menu .straberry_menu .item_information{
     position: absolute;
-    left: 4rem;
-    bottom: 5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    bottom: 4rem;
     width: 80%;
     font-family: serif;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     background-color:rgba(255,255,255,0.6);
     padding: 1rem 1.5rem;
 }
 .menu .straberry_menu1{
-    width: 40%;
-    padding: 0.3rem 1.5rem; 
+    width: 44%;
+    padding: 0.3rem 0.3rem 0.5rem 2.5rem; 
     margin: 1rem;
     background-color: #663300;
 }
@@ -236,7 +243,7 @@ main button a{
 }
 .menu_image .straberry_menu1 .menu_title{
     color: #ff9999;
-    font-size: 2.8rem;
+    font-size: 3rem;
     letter-spacing: 0.8rem;
     text-align: center;
     font-family: serif;
@@ -251,7 +258,7 @@ main button a{
 }
 .menu_image .straberry_menu1 .menu{
     color: #fff;
-    font-size: 1.1rem;
+    font-size: 1.6rem;
     font-family: Yu Mincho;
     text-align: center;
     margin-bottom: 0.5rem;
@@ -259,12 +266,12 @@ main button a{
 }
 .menu_image .straberry_menu1 .menu_title3{
     color: #ff9999;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     font-family: serif;
 }
 .menu_image .straberry_menu1 .menu2{
     color: #fff;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-family: serif;
     margin: 0 2rem 1rem 2rem;
 }
@@ -279,6 +286,10 @@ main button a{
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 5rem;
+    background: linear-gradient(90deg, rgba(255, 77, 77, .1) 50%, transparent 50%),
+                linear-gradient(rgba(255, 77, 77, .1) 50%, transparent 50%);
+    background-color: #fff;
+    background-size: 80px 80px;
 }
 .information p{
     font-size: 3rem;
@@ -286,29 +297,64 @@ main button a{
 }
 .information .information2{
     font-size: 3rem;
+    font-weight: bold;
+    color: #800000;
 }
 .information .border{
     border-bottom: dotted 2px gray;
-    padding: 3rem;
 }
 .information .day_price{
     font-family: YuGothic;
-    color: gray;
+    color: #a0522d;
     margin: 1.5rem;
+    font-size: 2.5rem;
+    letter-spacing: -0.1rem;
 }
 .information .day_price_small{
     font-family: YuGothic;
     font-size: 2rem;
-    color: gray;
+    color: #a0522d;
     margin: 1rem;
 }
+.information .button2{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    background-color: rgb(176, 8, 26);
+    padding: 1.3rem;
+    width: 30%;
+    font-size: 1.6rem;
+    font-family: "Comic Sans MS", "cursive","Meiryo UI", "Hiragino Sans","Hiragino Kaku Gothic ProN","Yu Gothic UI", "MS PGothic", sans-serif;
+    color: #fff;
+    border-radius: 1rem;
+}
+.information .button2:before{
+    content: "";
+    position: absolute;
+    top: -30px;
+    left:50%;
+    margin-left: -15px;
+    border: 15px solid transparent;
+    border-bottom: 15px solid rgb(176, 8, 26);
+}
 address{
-    font-family: YuGothic;
-    font-size: 3rem;
-    color: gray;
+    font-family: "游明朝", "YuMincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", "メイリオ", "Meiryo", "HGS明朝B", "HG明朝B", "ＭＳ 明朝";
+    font-size: 2.5rem;
+    color: #696969;
+    font-style: normal;
+    letter-spacing: -0.1rem;
+}
+.address_number{
+    font-size: 1.6rem;
+}
+.address_address{
+    letter-spacing: initial;
+    font-size: 1.6rem;
 }
 .information .wrap{
-    padding: 3rem;
+    padding: 10rem 3rem 5rem;
 }
 .information .snack img{
     width: 20rem;
@@ -319,6 +365,7 @@ footer{
     background-color: #800000;
     color: #fff;
     padding: 3rem;
+    font-size: 1.6rem;
 }
 .nav-unshown {
     display:none;
@@ -338,8 +385,7 @@ footer{
     }
     .menu .straberry_menu .item_information{
         bottom: 3.8rem;
-        left: 2.6rem;
-        font-size: 0.8rem;
+        font-size: 1.3rem;
     }
     .menu .straberry_menu .item_information{
         position: absolute;
@@ -371,7 +417,7 @@ footer{
     }
     .menu_image .straberry_menu1 .menu{
         color: #fff;
-        font-size: 1rem;
+        font-size: 1.2rem;
         font-family: Yu Mincho;
         text-align: center;
         margin-bottom: 0.3rem;
@@ -391,11 +437,8 @@ footer{
     
     .information .day_price_small{
         font-size: 1.5rem;
+        letter-spacing: -0.1rem;
     }
-
-
-
-
 
 }
 @media screen and (max-width: 768px){
@@ -406,10 +449,7 @@ footer{
         display: block !important;
         margin: 0;
     }
-    header .buffet_title{
-        position: absolute;
-            bottom: 1rem;
-    }
+    
     header h1{
         font-size: 2rem;
         background-color: rgba(0,0,0,0);
@@ -436,9 +476,7 @@ footer{
     header .buffet_title6{
         font-size: 2rem;
     }
-    main .about_fair p{
-        font-size: 2rem;
-    }
+    
     .menu .straberry_menu{
         width: 90%;
         padding: 2rem 1.5rem;
@@ -461,6 +499,7 @@ footer{
         letter-spacing: 0.8rem;
         text-align: center;
         font-family: serif;
+        font-weight: bold;
     }
     .menu_image .straberry_menu1 .menu_title2{
         color: #ff9999;
@@ -514,12 +553,11 @@ footer{
       /*ハンバーガーアイコンをCSSだけで表現*/
       #nav-open span, #nav-open span:before, #nav-open span:after {
         position: absolute;
-        
         margin: 5px;
         height: 3px;/*線の太さ*/
         width: 27px;/*長さ*/
         border-radius: 3px;
-        background: #555;
+        background: #ff69b4;
         display: block;
         content: '';
         cursor: pointer;
@@ -593,6 +631,9 @@ footer{
         transform: translateX(0%);/*中身を表示（右へスライド）*/
         box-shadow: 6px 0 25px rgba(0,0,0,.15);
       }
+      .sp .Ham{
+          position: fixed;
+      }
         /*ハンバーガーメニューここまで*/
 }
     @media screen and (max-width: 425px){
@@ -602,26 +643,36 @@ footer{
         }
         
         header .buffet_title2{
-            font-size: 0.7rem;
+            font-size: 2.5rem;
         }
         header .buffet_title3{
-            font-size: 1.5rem;
+            font-size: 4rem;
         }
         header .buffet_title4{
-            font-size: 1.5rem;
+            font-size: 3rem;
         }
         header .buffet_title5{
-            font-size: 1rem;
+            font-size: 2rem;
         }
         header .buffet_title6{
-            font-size: 0.7rem;
+            font-size: 1.5rem;
+        }
+        .information{
+            padding: 1rem;
+        }
+        .information .wrap{
+            padding: 3rem 3rem 3rem;
         }
         main .about_fair p{
             font-size: 0.8rem;
+            padding-top: 1rem;
+            line-height: 1.5rem;
+            padding-bottom: 2rem;
         }
         main button{
             font-size: 1rem;
             padding: 1rem 5rem;
+            margin: 1rem;
         }
         .menu .straberry_menu .item_name{
             height: 1.7rem;
@@ -638,6 +689,7 @@ footer{
         }
         .menu_image .straberry_menu1 .menu_title2{
             font-size: 0.7rem;
+            font-weight: bold;
         }
         .menu_image .straberry_menu1 .menu{
             font-size: 0.7rem;
@@ -651,10 +703,7 @@ footer{
         .menu_image .straberry_menu1 .menu3{
             font-size: 0.5rem;
         }
-        main .about_fair p{
-            line-height: 3rem;
-            padding-bottom: 0rem;
-        }
+        
         .information p{
             font-size: 1.4rem;
         }
@@ -670,8 +719,18 @@ footer{
         .information .day_price_small{
             font-size: 1rem;
         }
+        .information .button2{
+            font-size: 1.3rem;
+            width: 50%;
+        }
         .information address{
-            font-size: 1rem;
+            font-size: 1.6rem;
+        }
+        .address_number{
+            font-size: 1.2rem;
+        }
+        .address_address{
+            font-size: 1.3rem;
         }
         footer p{
             font-size: 0.9rem;
@@ -682,6 +741,12 @@ footer{
         }
     }
     @media screen and (max-width: 375px){
+        header .buffet_title2{
+            font-size: 2rem;
+        }
+        header .buffet_title3{
+            font-size: 3rem;
+        }
         .menu .straberry_menu .item_name{
             height: 1.2rem;
             width: 13rem;
@@ -692,7 +757,12 @@ footer{
         }
     }
     @media screen and (max-width: 320px){
-        
+        header .buffet_title3{
+            font-size: 3rem;
+        }
+        header .buffet_title4{
+            font-size: 2.5rem;
+        }
         .menu .menu_image{
             width: 90%;
         }

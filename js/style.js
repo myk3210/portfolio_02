@@ -19,6 +19,15 @@ $(function(){
     });
     $(function(){
         $('.slide_show').slick({
+            //スライドフェードアウトここから
+            fade: true,
+            speed: 1500,
+            autoplaySpeed: 3000,
+            arrows: false,
+            autoplay: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            //スライドフェードアウトここまで
             // アクセシビリティ。左右ボタンで画像の切り替えをできるかどうか
             autoplay: true,
         });
