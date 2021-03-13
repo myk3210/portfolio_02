@@ -75,33 +75,19 @@ header .wrap .head_menu{
 }
 header .phone_area{
     display:none;
-  }
-
-
-
-
-
+}
 .slide_show{
-    text-align: right;
-    background-color: #800000;  
+    text-align: right; 
     margin: 0 auto; 
 }
 .slide_show img{
     width: 100%;
 }
-
-
-    
-
 /*slick setting*/
 .slick-prev:before,
 .slick-next:before {
     color: #000;
 }
-
-
-
-
 header .buffet_title{
     position: absolute;
     left: 1rem;
@@ -178,8 +164,6 @@ main button{
     font-size: 2rem;
     margin: 7rem;
 }
-
-
 main button a{
     color: #fff;
 }
@@ -217,7 +201,6 @@ main button a{
     text-align: center;
     background-color:rgba(255,255,255,0.8);
 }
-
 .menu .straberry_menu .item_information{
     position: absolute;
     left: 50%;
@@ -359,7 +342,6 @@ address{
 .information .snack img{
     width: 20rem;
 }
-
 footer{
     text-align: center;
     background-color: #800000;
@@ -397,9 +379,6 @@ footer{
     header .buffet_title2{
         font-size: 4rem;
     }
-
-
-
     .menu_image .straberry_menu1 .menu_title{
         color: #ff9999;
         font-size: 2.5rem;
@@ -423,7 +402,6 @@ footer{
         margin-bottom: 0.3rem;
         font-family: serif;
     }
-    
     .menu_image .straberry_menu1 .menu2{
         font-size: 1rem;
     }
@@ -433,13 +411,10 @@ footer{
     .menu_image .straberry_menu1 .menu3{
         font-size: 1rem;
     }
-
-    
     .information .day_price_small{
         font-size: 1.5rem;
         letter-spacing: -0.1rem;
     }
-
 }
 @media screen and (max-width: 768px){
     .pc{
@@ -449,7 +424,6 @@ footer{
         display: block !important;
         margin: 0;
     }
-    
     header h1{
         font-size: 2rem;
         background-color: rgba(0,0,0,0);
@@ -476,7 +450,6 @@ footer{
     header .buffet_title6{
         font-size: 2rem;
     }
-    
     .menu .straberry_menu{
         width: 90%;
         padding: 2rem 1.5rem;
@@ -529,7 +502,6 @@ footer{
     .menu_image .straberry_menu1 .menu3{
         font-size: 1.2rem;
     }
-
     .information p{
         font-size: 2rem;
     }
@@ -545,7 +517,6 @@ footer{
       }
       /*アイコンのスペース*/
       #nav-open {
-        
         width: 30px;
         height: 22px;
         vertical-align: middle;
@@ -570,7 +541,6 @@ footer{
         bottom: -25px;
         right: -5px;
       }
-      
       /*閉じる用の薄黒カバー*/
       #nav-close {
         display: none;/*はじめは隠しておく*/
@@ -633,6 +603,7 @@ footer{
       }
       .sp .Ham{
           position: fixed;
+          z-index: 5;
       }
         /*ハンバーガーメニューここまで*/
 }
@@ -641,7 +612,6 @@ footer{
             font-size: 1.5rem;
             width: 70%;
         }
-        
         header .buffet_title2{
             font-size: 2.5rem;
         }
@@ -703,7 +673,6 @@ footer{
         .menu_image .straberry_menu1 .menu3{
             font-size: 0.5rem;
         }
-        
         .information p{
             font-size: 1.4rem;
         }
