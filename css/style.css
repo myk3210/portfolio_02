@@ -215,57 +215,7 @@ main button a{
     background-color:rgba(255,255,255,0.6);
     padding: 1rem 1.5rem;
 }
-.menu .straberry_menu1{
-    width: 44%;
-    height: auto;
-    padding: 0.3rem 0.3rem 0.5rem 2.5rem; 
-    margin: 1rem 2.5rem;
-    background-color: #663300;
-}
-.menu .straberry_menu1 img{
-    width: 100%;
-}
-.menu_image .straberry_menu1 .menu_title{
-    color: #ff9999;
-    font-size: 3rem;
-    letter-spacing: 0.8rem;
-    text-align: center;
-    font-family: serif;
-}
-.menu_image .straberry_menu1 .menu_title2{
-    color: #ff9999;
-    font-size: 1.4rem;
-    font-family: serif;
-    letter-spacing: 0.3rem;
-    text-align: center;
-    margin-bottom: 0.5rem;
-}
-.menu_image .straberry_menu1 .menu{
-    color: #fff;
-    font-size: 1.4rem;
-    font-family: Yu Mincho;
-    text-align: center;
-    margin-bottom: 1.4rem;
-    font-family: serif;
-}
-.menu_image .straberry_menu1 .menu_title3{
-    color: #ff9999;
-    padding-left: 10px;
-    font-size: 1.4rem;
-    font-family: serif;
-}
-.menu_image .straberry_menu1 .menu2{
-    color: #fff;
-    font-size: 1.2rem;
-    font-family: serif;
-    margin: 0 2rem 1rem 2rem;
-}
-.menu_image .straberry_menu1 .menu3{
-    color: #fff;
-    font-size: 1.2rem;
-    padding-left: 10px;
-    font-family: serif;
-}
+
 .information{
     background-color: rgba(255,255,255,0.6);
     text-align: center;
@@ -397,7 +347,7 @@ footer{
         width: 80%;
     }
     .menu .straberry_menu1{
-        margin: 1rem;
+        margin: 1rem 1.4rem;
     }
     header h1{
         font-size: 2.8rem;
@@ -405,26 +355,7 @@ footer{
     header .buffet_title2{
         font-size: 4rem;
     }
-    .menu_image .straberry_menu1 .menu_title{
-        font-size: 2.5rem;
-    }
-    .menu_image .straberry_menu1 .menu_title2{
-        font-size: 1rem;
-        margin-bottom: 0.3rem;
-    }
-    .menu_image .straberry_menu1 .menu{
-        font-size: 1.2rem;
-        margin-bottom: 0.3rem;
-    }
-    .menu_image .straberry_menu1 .menu2{
-        font-size: 1rem;
-    }
-    .menu_image .straberry_menu1 .menu_title3{
-        font-size: 1rem;
-    }
-    .menu_image .straberry_menu1 .menu3{
-        font-size: 1rem;
-    }
+    
     .information .day_price_small{
         font-size: 1.5rem;
         letter-spacing: -0.1rem;
@@ -476,34 +407,7 @@ footer{
         width: 85%;
         font-size: 1.7rem;
     }
-    .menu .straberry_menu1{
-        width: 85%;
-        padding: 1.5rem 1rem;
-        margin: 4rem;
-    }
-    .menu_image .straberry_menu1 .menu_title{
-        font-size: 3rem;
-        font-weight: bold;
-    }
-    .menu_image .straberry_menu1 .menu_title2{
-        font-size: 1.5rem;
-        margin-bottom: 0.5rem;
-    }
-    .menu_image .straberry_menu1 .menu{
-        margin-bottom: 0.5rem;
-    }
-    .menu_image .straberry_menu1 .menu{
-        font-size: 1.5rem;
-    }
-    .menu_image .straberry_menu1 .menu2{
-        font-size: 1.5rem;
-    }
-    .menu_image .straberry_menu1 .menu_title3{
-        font-size: 1.5rem;
-    }
-    .menu_image .straberry_menu1 .menu3{
-        font-size: 1.2rem;
-    }
+    
     .information p{
         font-size: 2rem;
     }
@@ -657,25 +561,7 @@ footer{
             width: 83%;
             padding: 0.3rem;
         }
-        .menu_image .straberry_menu1 .menu_title{
-            font-size: 1rem;
-        }
-        .menu_image .straberry_menu1 .menu_title2{
-            font-size: 0.7rem;
-            font-weight: bold;
-        }
-        .menu_image .straberry_menu1 .menu{
-            font-size: 0.7rem;
-        }
-        .menu_image .straberry_menu1 .menu_title3{
-            font-size: 0.7rem;
-        }
-        .menu_image .straberry_menu1 .menu2{
-            font-size: 0.7rem;
-        }
-        .menu_image .straberry_menu1 .menu3{
-            font-size: 0.5rem;
-        }
+        
         .information p{
             font-size: 1.4rem;
         }
